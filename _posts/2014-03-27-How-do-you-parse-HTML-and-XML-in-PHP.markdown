@@ -12,14 +12,17 @@ Actually, PHP makes it really easy - it has the solution built-in.
 
 Parse HTML in PHP
 {% highlight php %}
+<?php
 $html = '<p><img src="http://www.example.com/example.png" alt="example" /></p>';
 $dom = new DOMDocument;
 $dom->loadHTML($html);
 $imgs = $dom->getElementsByTagName('img');
+?>
 {% endhighlight %}
 
 Parse XML in PHP:
 {% highlight php %}
+<?php
 $xml = <<< XML
 <?xml version="1.0" encoding="utf-8"?>
 <companies>
@@ -35,6 +38,7 @@ $companies = $dom->getElementsByTagName('company');
 foreach ($companies as $company) {
     echo $company->nodeValue;
 }
+?>
 {% endhighlight %}
 
 
