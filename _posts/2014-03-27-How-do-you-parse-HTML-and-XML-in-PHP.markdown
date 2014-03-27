@@ -23,14 +23,12 @@ $imgs = $dom->getElementsByTagName('img');
 Parse XML in PHP:
 {% highlight php %}
 <?php
-$xml = <<< XML
-<?xml version="1.0" encoding="utf-8"?>
+$xml = '<?xml version="1.0" encoding="utf-8"?>
 <companies>
  <company>Google</company>
  <company>Yahoo</company>
  <company>Microsoft</company>
-</companies>
-XML;
+</companies>';
 
 $dom = new DOMDocument;
 $dom->loadXML($xml);
