@@ -2,10 +2,10 @@
 layout: post
 title:  "How do you parse HTML and XML in PHP"
 date:   2014-03-27 15:52:46
-categories: php html xml
+categories: php
 ---
 
-Most of us wonder every once in a while how to parse HTML and XML in PHP.
+Most of us wonder need to parse HTML and XML in PHP every once in a while. This is how it's done.
 
 Actually, PHP makes it really easy - it has the solution built-in.
 
