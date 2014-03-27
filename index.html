@@ -5,6 +5,7 @@ title: "Snippet Repository: Code Snippets for Every Day"
 
 <div id="home">
   <h1>Snippets</h1>
+  <div class="io" id="list"></div>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
