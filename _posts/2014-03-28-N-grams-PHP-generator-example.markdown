@@ -43,6 +43,5 @@ return $ngrams;
 {% endhighlight %}
 
 The example is a function `ngrams()` which has 2 arguments:
-
 *	The first, `$word`, (which is required) is the word for which you'll need the N-grams generated
 *	The second, `$min_gram_length`, (which is optional, default = 2) is self-explanatory - contains the minimum gram length.
