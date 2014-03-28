@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "N-grams PHP generator example"
-date:   2014-03-27 15:52:46
+date:   2014-03-28 15:52:46
 categories: php
 ---
 
